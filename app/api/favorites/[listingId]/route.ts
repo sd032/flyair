@@ -32,7 +32,7 @@ export async function POST(
             id: currentUser.id
         },
         data: {
-            favouriteIds: favoriteIds
+            favoriteIds: favoriteIds
         }
     });
 
@@ -64,7 +64,7 @@ export async function DELETE(
             id: currentUser.id
         },
         data: {
-            favouriteIds: favoriteIds
+            favoriteIds: favoriteIds
         }
     });
 
