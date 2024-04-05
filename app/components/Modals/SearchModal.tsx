@@ -185,7 +185,7 @@ const SearchModal = () => {
     <Modal
       isOpen={searchModal.isOpen}
       title="Filters"
-      actionLabel={actionLabel}
+      actionlabel={actionLabel}
       onSubmit={onSubmit}
       secondaryActionLabel={secondaryActionLabel}
       secondaryAction={step === STEPS.LOCATION ? undefined : onBack}
